@@ -1,4 +1,4 @@
-    def print_positive_numbers(numbers):
+def print_positive_numbers(numbers):
     positive_numbers = [num for num in numbers if num > 0]
     if positive_numbers:
         print("Output:", ", ".join(map(str, positive_numbers)))
